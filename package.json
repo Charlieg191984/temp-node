@@ -5,8 +5,7 @@
   "main": "alternative.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "build:prod": "node scripts/build-config.js"
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +14,7 @@
     "swiper": "^9.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "webpack": "^5.86.0"
   }
 }
